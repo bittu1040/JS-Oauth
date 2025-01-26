@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google OAuth</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="firebaseConfig.js"></script>
+    <script type="module" src="main.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Login with Google</h1>
+        <button id="login-btn">Sign in with Google</button>
+        <div id="user-info" class="card" style="display:none;">
+            <img id="user-photo" src="" alt="User Photo" class="user-photo">
+            <p>Hello, <span id="username"></span></p>
+            <button id="logout-btn" style="display:none;">Logout</button>
+        </div>
+    </div>
+</body>
+
+</html>
